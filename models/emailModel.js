@@ -53,7 +53,7 @@ export async function saveEmail(emailData) {
         subject,
         created_by: from,
         participants,
-        status: 'open'
+        status: 'new'
       }])
       .select()
       .single();
